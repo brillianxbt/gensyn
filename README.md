@@ -9,8 +9,6 @@ This script automates the installation and updates for the RL-Swarm. Including s
 - **100GB Disk**
 - Stable internet connection
 
-## 📋 Prerequisites
-
 ## 🚀 Features
 Resource Management: Creates a dedicated systemd slice (rl-swarm.slice) to limit the service's CPU and RAM usage, ensuring it doesn't consume all system resources.
 
