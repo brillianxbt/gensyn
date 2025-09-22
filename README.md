@@ -12,11 +12,11 @@ This script automates the installation and updates for the RL-Swarm. Including s
 ## 📋 Prerequisites
 
 ## 🚀 Features
--Resource Management: Creates a dedicated systemd slice (rl-swarm.slice) to limit the service's CPU and RAM usage, ensuring it doesn't consume all system resources.
+Resource Management: Creates a dedicated systemd slice (rl-swarm.slice) to limit the service's CPU and RAM usage, ensuring it doesn't consume all system resources.
 
--CPU: Limits CPU usage to N-1 cores, where N is the total number of cores on the system.
+CPU: Limits CPU usage to N-1 cores, where N is the total number of cores on the system.
 
--RAM: Reduces total RAM usage by 3GB to leave a buffer for the operating system and other processes.
+RAM: Reduces total RAM usage by 3GB to leave a buffer for the operating system and other processes.
 
 ### 1. One Command Instlation
 ```bash
