@@ -1,4 +1,4 @@
-# RL-Swarm Installer & Updater
+# RL-Swarm Installer Use Sytemd
 This script automates the installation and updates for the RL-Swarm. Including system resource management and service configuration
 
 ## 📋 Prerequisites
@@ -30,4 +30,9 @@ bash <(curl -s https://raw.githubusercontent.com/brillianxbt/gensyn/main/systemd
 ### Check Logs
 ```bash
 journalctl -u rl-swarm -f -o cat
+```
+
+### Stop Node
+```bash
+sudo systemctl
 ```
